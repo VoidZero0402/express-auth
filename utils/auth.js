@@ -48,7 +48,6 @@ module.exports.verifyRefreshToken = (refreshToken) => {
 module.exports.cookiesOptions = {
     path: "/",
     sameSite: "lax",
-    httpOnly: true,
 };
 
 module.exports.setJWTCookies = async (res, payload, user) => {
