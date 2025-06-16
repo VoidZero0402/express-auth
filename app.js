@@ -8,7 +8,7 @@ const authRouter = require("./routes/auth");
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:3001", credentials: true }));
+app.use(cors({ origin: "http://u8cgk4k04sgs084s4cowkogo.82.115.18.67.sslip.io", credentials: true }));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
