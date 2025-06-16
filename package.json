@@ -4,6 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
+        "build": "",
+        "start": "",
         "dev": "dotenv -e .env nodemon server.js"
     },
     "keywords": [],
